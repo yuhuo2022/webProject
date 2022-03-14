@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <title>login</title>
+  </head>
+  <body>
+    <h1>青春不常在，抓紧谈恋爱</h1>
+    <hr />
+    <form action="">
+      <label for="">
+        <p>昵称：<input type="text" placeholder="请输入昵称" /></p>
+        <p>
+          性别：
+          <input type="radio" name="sex" value="1" checked /> <img src="./images/man.jpg" alt=""> 男
+          <input type="radio" name="sex" value="0" /> <img src="./images/women.jpg" alt=""> 女
+        </p>
+        <p>
+          出生日期：<input type="text" placeholder="2004-1-1">
+        </p>
+        <p>
+          所在地区：
+          <select name="city">
+            <option value="wuhan">武汉</option>
+            <option value="beijing">北京</option>
+            <option value="shanghai">上海</option>
+            <option value="guangzhou">广州</option>
+            <option value="shenzhen">深圳</option>
+          </select>
+        </p>
+        <p>
+          婚姻状况：
+          <input type="radio" name="maritalStatus" value="0" checked> 未婚
+          <input type="radio" name="maritalStatus" value="1"> 单身
+          <input type="radio" name="maritalStatus" value="2"> 缺爱
+        </p>
+        <p>
+          学历：<input type="text" placeholder="本科">
+        </p>
+        <p>
+          月薪：<input type="text" placeholder="1000~100000">
+        </p>
+        <p>
+          手机号：<input type="text">
+        </p>
+        <p>
+          喜欢的类型：
+          <input type="checkbox" name="favoredType" value="可爱">可爱
+          <input type="checkbox" name="favoredType" value="性感">性感
+          <input type="checkbox" name="favoredType" value="大叔">大叔
+          <input type="checkbox" name="favoredType" value="小鲜肉">小鲜肉
+          <input type="checkbox" name="favoredType" value="小狼狗">小狼狗
+          <input type="checkbox" name="favoredType" value="其他">其他
+        </p>
+        <p>
+          个人介绍：<br>
+          <textarea name="selfIntroduction" cols="30" rows="10"></textarea>
+        </p>
+        <p>
+          <h3>我承诺</h3>
+          <ul>
+            <li>年满18岁</li>
+            <li>抱着严谨认真的态度</li>
+            <li>真诚寻找另一半</li>
+          </ul>
+          <input type="checkbox" name="agree" value="1" /> 同意所有条款
+        </p>
+        <p>
+          <input type="submit" value="免费注册" />
+          <input type="reset" value="重置" />
+        </p>
+      </label>
+    </form>
+  </body>
+</html>
