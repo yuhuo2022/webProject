@@ -262,6 +262,7 @@ body {
 }
 
 .courses .content li {
+	position: relative;
 	float: left;
 	margin-right: 15px;
 	margin-bottom: 15px;
@@ -291,7 +292,12 @@ body {
 .courses .content li p span {
 	color: #FF7C2D;
 }
-
+/*定位小图*/
+.courses .content .hot{
+	position: absolute;
+	right: -5px;
+	top: 4px;
+}
 /*精品推荐课程 end*/
 /*编程入门*/
 .courses .title ul{
