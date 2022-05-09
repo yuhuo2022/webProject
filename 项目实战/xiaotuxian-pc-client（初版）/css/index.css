@@ -121,6 +121,7 @@
 	font-size: 16px;
 	color: #999;
 }
+
 .top-new .hd a,
 .fresh .hd .more,
 .popular .hd a,
@@ -262,6 +263,7 @@
 	height: 96px;
 	line-height: 96px;
 }
+
 .top-new .hd h2,
 .fresh .hd h2 {
 	float: left;
@@ -272,118 +274,190 @@
 .fresh .hd .more {
 	float: right;
 }
-.fresh .hd ul{
+
+.fresh .hd ul {
 	float: right;
 	margin-right: 65px;
 }
+
 .fresh .hd li {
-	float:left;
+	float: left;
 }
-.fresh .hd li a{
+
+.fresh .hd li a {
 	margin-left: 6px;
 	padding: 2px 7px;
 }
-.fresh .hd li a:hover{
+
+.fresh .hd li a:hover {
 	background-color: #27BA9B;
-	color: #fff;
+	color: #FFF;
 }
-.fresh .bd .left{
+
+.fresh .bd .left {
 	float: left;
 	width: 240px;
 	height: 610px;
 }
-.fresh .bd .right{
+
+.fresh .bd .right {
 	float: left;
 	width: 1000px;
 }
-.fresh .bd .right li{
+
+.fresh .bd .right li {
 	float: left;
 	margin-left: 8px;
 	width: 242px;
 	height: 304px;
 }
-.fresh .bd .right li img{
+
+.fresh .bd .right li img {
 	width: 184px;
 	height: 184px;
 }
-.fresh .bd .right li p{
+
+.fresh .bd .right li p {
 	font-size: 17px;
-	color: #9a2e1f;
+	color: #9A2E1F;
 }
-.fresh .bd .right li span{
+
+.fresh .bd .right li span {
 	font-size: 22px;
 }
+
 /*生鲜 end*/
 /*最新专题 start*/
-.top-new{
+.top-new {
 	width: 100%;
 	background-color: #F5F5F5;
 }
-.top-new .hd{
+
+.top-new .hd {
 	height: 96px;
 	line-height: 96px;
 }
-.top-new .bd li{
+
+.top-new .bd li {
 	position: relative;
 	float: left;
 	margin-right: 10px;
 	width: 404px;
 	height: 356px;
 }
-.top-new .bd li:last-child{
+
+.top-new .bd li:last-child {
 	margin-right: 0;
 }
-.top-new .bd li img{
+
+.top-new .bd li img {
 
 	width: 404px;
 }
-.top-new .bd li p{
+
+.top-new .bd li p {
 	padding: 30px 20px;
 	font-size: 14px;
 }
-.top-new .bd .fl{
+
+.top-new .bd .fl {
 	float: left;
 }
-.top-new .bd .fr{
+
+.top-new .bd .fr {
 	float: right;
 }
-.top-new .bd li i{
+
+.top-new .bd li i {
 	display: inline-block;
 	width: 17px;
 	height: 16px;
 	background-image: url(../images/sprites.png);
 }
-.top-new .fl i:first-child{
+
+.top-new .fl i:first-child {
 	background-position: -120px -107px;
 }
-.top-new .fl i:last-child{
+
+.top-new .fl i:last-child {
 	background-position: -158px -108px;
 }
-.top-new .fr i{
+
+.top-new .fr i {
 	background-position: -200px -109px;
 }
-.top-new .bd .mask{
+
+.top-new .bd .mask {
 	position: absolute;
 	left: 0;
 	top: 222px;
 	width: 100%;
 	height: 100px;
 	font-size: 20px;
-	color: #fff;
+	color: #FFF;
 }
-.top-new .bd .mask span:last-child{
+
+.top-new .bd .mask span:last-child {
 	font-size: 16px;
 	color: #999;
 }
-.top-new .bd .price{
+
+.top-new .bd .price {
 	position: absolute;
 	right: 24px;
 	background-color: #FFF;
 	top: 232px;
-	color: #9a2e1f;
+	color: #9A2E1F;
 }
-.top-new .bd .price b{
+
+.top-new .bd .price b {
 	font-weight: 400;
 	font-size: 14px;
 }
+
 /*最新专题 end*/
+/*电梯 start*/
+.xtx-elevator {
+	position: fixed;
+	left: 50%;
+	top: 280px;
+	z-index: 999;
+	margin-left: 640px;
+	 opacity: 0;
+	transition: all .5s;
+}
+.xtx-elevator .xtx-elevator-list {
+	width: 60px;
+	height: 300px;
+	background: #fff;
+	float: right;
+	border: 1px solid #f5f5f5;
+	position: relative;
+}
+.xtx-elevator .xtx-elevator-list li {
+	height: 60px;
+	padding: 15px;
+}
+.xtx-elevator .xtx-elevator-list li a {
+	width: 40px;
+	height: 40px;
+	display: block;
+}
+.xtx-elevator .xtx-elevator-list li a:hover,
+.xtx-elevator .xtx-elevator-list li a.active {
+	color: #27BA9B;
+}
+.xtx-elevator .xtx-elevator-list li a i {
+	display: block;
+	width: 16px;
+	height: 16px;
+	position: relative;
+	left: 4px;
+	background-image: url(../images/sprites.png);
+	background-size: 400px 400px;
+	background-repeat: no-repeat;
+	background-position: 8px -106px;
+	font-size: 20px;
+	transform: rotate(-90deg);
+}
+/*电梯 end*/
